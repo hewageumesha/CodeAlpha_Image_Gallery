@@ -22,3 +22,4 @@ const filterCards = e => {
 
 //Add click event listener to each filter button
 filterButtons.forEach(button => button.addEventListener("click", filterCards));
+

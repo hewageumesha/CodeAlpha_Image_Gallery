@@ -37,6 +37,12 @@ button {
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
+button:hover {
+    background: #305ac1;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
 button.active {
     background: #4070f4;
     color: #fff;
@@ -49,6 +55,12 @@ button.active {
     flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
+
 .card {
     flex-grow: 1;
     flex-basis: 300px;
@@ -56,6 +68,12 @@ button.active {
     padding: 3px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
 }
 
 .card.hide {
