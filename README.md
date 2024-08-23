@@ -1,7 +1,7 @@
-## CodeAlpha_Image_Gallery
+## Image_Gallery
 
 ### Overview
-The CodeAlpha Image Gallery is a responsive web application built with HTML, CSS, and JavaScript. It showcases a collection of images that can be filtered by category using buttons. The gallery is designed to be simple, visually appealing, and easy to use.
+The Image Gallery is a responsive web application built with HTML, CSS, and JavaScript. It showcases a collection of images that can be filtered by category using buttons. The gallery is designed to be simple, visually appealing, and easy to use.
 
 ### Features
 - Filter Buttons: Users can filter images by categories such as "All Photos", "Sri Lanka", "Singapore", and "Maldives".
